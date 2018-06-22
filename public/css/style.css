@@ -1,0 +1,41 @@
+/* .back-gd{
+    background-color: gray;
+    background-image: url('..images/webpage-bkGround.png');
+} */
+.container{
+    margin-top: 10%;
+    width: fit-content;
+    margin-left: 40%;
+    border: 1px solid black;
+    background-color: rgb(54, 53, 53);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.con-home{
+    margin-left: 35%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10%;
+    background-color: transparent;
+    color: #fff;
+}
+
+.blog {
+    box-shadow: 5px gray; 
+}
+
+#navbar-f{
+        font-size: 1.5rem;
+}
+#display {
+    font-size: 5.0rem;
+}
+#display1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
