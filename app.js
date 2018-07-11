@@ -56,7 +56,7 @@ app.post('/Blog', function(req,res){
 });
 
 
-app.post('/Blog',function(req,res){
+app.post('/',function(req,res){
 
     var values = [req.body.title,req.body.name, req.body.post];
 
@@ -101,6 +101,10 @@ app.get('/portfolio',function(req,res){
      res.render('Blog');
  });
 
+ app.get('/music', function(req,res){
+    res.render('music');
+ });
+
 // app.post('/', function(req,res){
 //     res.render('blog');
     // var data = req.query;
@@ -119,5 +123,6 @@ app.get('/portfolio',function(req,res){
 // }
 
 
-app.listen(3000);
-console.log('app is listening on port 3000');
+var port = 3000;
+app.listen(port);
+console.log('app is listening on port '+ port);
