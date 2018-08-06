@@ -27,7 +27,7 @@
 }
 
 #navbar-f{
-        font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 #display {
     font-size: 5.0rem;
@@ -38,4 +38,24 @@
     margin-top: 0px;
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+/*------------- music.ejs -----------------*/
+
+
+#containerF{
+    margin-top: 10%;
+    width: fit-content;
+    margin-left: 40%;
+
+}
+
+button{
+    /* background-color: rgb(92, 105, 145); */
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+#upload {
+    background-color: rgb(92, 105, 145);
 }

@@ -43,7 +43,23 @@
                     </h2>
               </div>
               
-<script src="script/main.js"></script>
+            <div class="container-fluid">
+              <div class="player">
+                <div class="button">   
+                  <button id="prev"><img src="images/PrevBt.png" height="20px" width="20px"></button>
+                  <button id="play"><img src="images/PlayBt.png" height="20px" width="20px"></button>
+                  <button id="pause"><img src="images/PauseBt.png" height="20px" width="20px"></button>
+                  <button id="next"><img src="images/NextBt.png" height="20px" width="20px"></button>
+                  <button id="stop"><img src="images/StopBt.png" height="20px" width="20px"></button>
+                  <input type="file" id="songUpload" accept="audio" name="songUpload" onchange="" hidden>
+                  <label id="upload" for="songUpload" ><img src="images/uploadBT.png" height="30px" width="30px"></label>
+                </div>
+                 <audio id="playSong" >
+                    <source src="Songs/Ehrling - Mood.mp3" type="audio/mpeg">
+                 </audio>
+              </div>
+            </div>
+<script src="script/music1.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
